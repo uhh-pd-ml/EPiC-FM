@@ -9,14 +9,14 @@
 [![black](https://img.shields.io/badge/Code%20Style-Black-black.svg?labelColor=gray)](https://black.readthedocs.io/en/stable/)
 [![isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/) <br>
 <a href="https://github.com/ashleve/lightning-hydra-template"><img alt="Template" src="https://img.shields.io/badge/-Lightning--Hydra--Template-017F2F?style=flat&logo=github&labelColor=gray"></a>
-[![Paper](http://img.shields.io/badge/paper-arxiv.1001.2234-B31B1B.svg)](https://www.nature.com/articles/nature14539)
+[![Paper](http://img.shields.io/badge/paper-arxiv.2310.00049-B31B1B.svg)](https://arxiv.org/abs/2310.00049)
 [![Conference](http://img.shields.io/badge/AnyConference-year-4b44ce.svg)](https://papers.nips.cc/paper/2020)
 
 </div>
 
 ## Description
 
-This is the official repository implementing the EPiC Flow Matching point cloud generative machine learning models from arxiv1111.11111.
+This is the official repository implementing the EPiC Flow Matching point cloud generative machine learning models from [arxiv.2310.00049](https://arxiv.org/abs/2310.00049).
 
 EPiC Flow Matching is a [Continuous Normalising Flow](https://arxiv.org/abs/1806.07366) that is trained with a simulation free approach called [Flow Matching](https://arxiv.org/abs/2210.02747). The model uses [DeepSet](https://arxiv.org/abs/1703.06114) based [EPiC layers](https://arxiv.org/abs/2301.08128) for the architecture, which allow for good scalability to high set sizes.
 
