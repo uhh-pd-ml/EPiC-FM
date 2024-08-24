@@ -16,7 +16,10 @@
 
 ## Description
 
-This is the official repository implementing the EPiC Flow Matching point cloud generative machine learning models from the paper '[EPiC-ly Fast Particle Cloud Generation with Flow-Matching and Diffusion](https://arxiv.org/abs/2310.00049)'. A library that includes this model as well as additional losses, architectures and datasets can be found [here](https://github.com/ewencedr/particle_fm).
+> [!NOTE]
+> A library that includes these models as well as additional loss functions, architectures and (particle physics) datasets can be found [here](https://github.com/ewencedr/particle_fm).
+
+This is the official repository implementing the EPiC Flow Matching point cloud generative machine learning models from the paper '[EPiC-ly Fast Particle Cloud Generation with Flow-Matching and Diffusion](https://arxiv.org/abs/2310.00049)'.
 
 EPiC Flow Matching is a [Continuous Normalising Flow](https://arxiv.org/abs/1806.07366) that is trained with a simulation free approach called [Flow Matching](https://arxiv.org/abs/2210.02747). The model uses [DeepSet](https://arxiv.org/abs/1703.06114) based [EPiC layers](https://arxiv.org/abs/2301.08128) for the architecture, which allow for good scalability to high set sizes.
 
